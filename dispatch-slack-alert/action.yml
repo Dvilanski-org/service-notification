@@ -1,0 +1,7 @@
+name: "dispatch-slack-alert"
+description: "Dispatch Slack Alert Composite Action"
+runs:
+  using: "composite"
+  steps:
+    - run: echo "Executing dispatch-slack-alert"
+      shell: bash
